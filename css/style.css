@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Circular Std';
+    src: url('../fonts/CircularStd-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+.vanta{
+    margin: 0%;
+    padding: 15%;
+}
+
+.hmsi{
+    color: white !important;
+    font-size: 72px !important;
+    font-family: Circular Std, 'segoe ui', sans-serif;
+}
+
+.pe{
+    font-size: 20px;
+    color: white;
+    font-family: Circular Std, 'segoe ui', sans-serif;
+}
