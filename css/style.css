@@ -6,6 +6,9 @@
     font-display: swap;
 }
 
+.body{
+    background-color: #23153c;
+}
 
 .vanta{
     margin: 0%;
@@ -22,4 +25,25 @@
     font-size: 20px;
     color: white;
     font-family: Circular Std, 'segoe ui', sans-serif;
+}
+
+.divpeta{
+    background-color: #23153c;
+    padding: 40px 0;
+}
+
+.peta{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.divisi{
+    padding: 0 2% 0;
+}
+
+.detail-divisi{
+    /* float: left; */
+    display: inline-block;
+    margin-top: 2%;
+    margin-left: 2%;
 }
