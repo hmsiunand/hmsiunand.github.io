@@ -1,5 +1,29 @@
 {
+  "name": "website_hmsi",
+  "version": "1.0.0",
+  "description": "https://kemalhiero.github.io/website_hmsi/",
+  "main": "index.js",
+  "scripts": {
+    "dev": "npx tailwindcss -i ./src/input.css -o ./css/output.css --watch",
+    "minify": "npx tailwindcss -o ./css/final.css --minify"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kemalhiero/website_hmsi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kemalhiero/website_hmsi/issues"
+  },
+  "homepage": "https://github.com/kemalhiero/website_hmsi#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "postcss": "^8.4.14",
+    "tailwindcss": "^3.1.7"
+  },
   "dependencies": {
-    "daisyui": "^2.20.0"
+    "daisyui": "^2.22.0"
   }
 }

@@ -1,16 +1,3 @@
-/* clearfixxxxx */
-.cf:before,
-.cf:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
-}
-
-.cf:after {
-    clear: both;
-}
-
-/* -------------------------- */
-
 @font-face {
     font-family: 'Circular Std';
     src: url('../fonts/CircularStd-Bold.woff') format('woff');
@@ -23,8 +10,3 @@
     font-family: Circular Std, 'segoe ui', sans-serif;
 }
 
-.detail-divisi{
-    /* float: left; */
-    display: inline-block;
-    margin: 1% 1%;
-}
