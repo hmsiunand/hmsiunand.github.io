@@ -2135,16 +2135,16 @@ body[dir="rtl"] .checkbox:checked,
   margin-bottom: 0.75rem;
 }
 
+.mt-5 {
+  margin-top: 1.25rem;
+}
+
 .mb-2 {
   margin-bottom: 0.5rem;
 }
 
 .mb-9 {
   margin-bottom: 2.25rem;
-}
-
-.mt-5 {
-  margin-top: 1.25rem;
 }
 
 .inline-block {
@@ -2185,6 +2185,10 @@ body[dir="rtl"] .checkbox:checked,
 
 .w-60 {
   width: 15rem;
+}
+
+.w-24 {
+  width: 6rem;
 }
 
 .w-10\/12 {
@@ -2327,9 +2331,9 @@ body[dir="rtl"] .checkbox:checked,
   padding-right: 0.75rem;
 }
 
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
 }
 
 .py-6 {
@@ -2441,10 +2445,20 @@ body[dir="rtl"] .checkbox:checked,
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
+.shadow-xl {
+  --tw-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 20px 25px -5px var(--tw-shadow-color), 0 8px 10px -6px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
 @media (min-width: 640px) {
   .sm\:mx-9 {
     margin-left: 2.25rem;
     margin-right: 2.25rem;
+  }
+
+  .sm\:block {
+    display: block;
   }
 
   .sm\:flex {
@@ -2453,6 +2467,10 @@ body[dir="rtl"] .checkbox:checked,
 
   .sm\:hidden {
     display: none;
+  }
+
+  .sm\:w-32 {
+    width: 8rem;
   }
 
   .sm\:max-w-xl {
