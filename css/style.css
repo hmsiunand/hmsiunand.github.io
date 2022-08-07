@@ -6,7 +6,14 @@
     font-display: swap;
 }
 
-.hmsi{
-    font-family: Circular Std, 'segoe ui', sans-serif;
+@font-face {
+    font-family: 'Circular Std Book';
+    src: url('../fonts/CircularStd-Book.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
 }
+
+.hmsi{font-family: Circular Std, 'segoe ui', sans-serif;}
+.huruf-normal{font-family: Circular Std Book, 'segoe ui', sans-serif;}
 
