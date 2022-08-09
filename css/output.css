@@ -2190,6 +2190,12 @@ body[dir="rtl"] .checkbox:checked,
   max-height: min-content;
 }
 
+.max-h-fit {
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+}
+
 .min-h-screen {
   min-height: 100vh;
 }
@@ -2650,9 +2656,19 @@ body[dir="rtl"] .checkbox:checked,
 }
 
 @media (min-width: 1536px) {
+  .\32xl\:px-72 {
+    padding-left: 18rem;
+    padding-right: 18rem;
+  }
+
   .\32xl\:px-0 {
     padding-left: 0px;
     padding-right: 0px;
+  }
+
+  .\32xl\:px-64 {
+    padding-left: 16rem;
+    padding-right: 16rem;
   }
 
   .\32xl\:pl-72 {
