@@ -14,6 +14,25 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'montserratbold';
+    src: url('../fonts/montserrat-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'montserratregular';
+    src: url('../fonts/montserrat-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 .hmsi{font-family: Circular Std, 'segoe ui', sans-serif;}
 .huruf-normal{font-family: Circular Std Book, 'segoe ui', sans-serif;}
+.blog-normal{font-family: montserratregular, 'segoe ui', sans-serif;}
+.blog-tebal{font-family: montserratbold, 'segoe ui', sans-serif;}
+
 
