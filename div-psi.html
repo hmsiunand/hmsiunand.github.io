@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="id" class="bg-[#23153c] scroll-smooth">
+<html lang="id" class="scroll-smooth bg-[#23153c]">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,189 +11,188 @@
 
     <title>Divisi PSI | HMSI Universitas Andalas</title>
 </head>
-<body class="bg-[#23153c]">
+<body>
 
-    <div class="drawer drawer-end fixed z-20">
+    <div class="drawer drawer-end">
       <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
       <div class="drawer-content">
 
-        <div class="navbar bg-[#23153c] text-neutral-content">
-            <div class="flex-1 px-2 lg:flex-none">
-              <a href="index.html">
-                <img src="./img/logo-hmsi.png" class="w-32 sm:mx-9 mx-0" />
-              </a>
-            </div> 
-            <div class="flex justify-end flex-1 px-2">
-              <div class="flex items-stretch">
-                <ul class="hmsi menu menu-horizontal p-0 z-10 hidden sm:flex">
-                  <li tabindex="0">
-                    <a>
-                      Tentang
-                      <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
-                    </a>
-                    <ul class="p-2 bg-base-100 text-black">
-                      <li><a href="tentang-hmsi.html">Tentang HMSI</a></li>
-                      <li><a href="lambang.html">Arti Lambang</a></li>
-                    </ul>
-                  </li>
-                  <li tabindex="0">
-                    <a>
-                      Divisi
-                      <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
-                    </a>
-                    <ul class="p-2 bg-base-100 text-black">
-                      <li><a href="div-inti.html">Inti</a></li>
-                      <li><a href="div-psdm.html">PSDM</a></li>
-                      <li><a href="div-humas.html">Humas</a></li>
-                      <li><a href="div-kwu.html">Kewirausahaan</a></li>
-                      <li><a href="div-psi.html">PSI</a></li>
-                      <li><a href="div-rtk.html">RTK</a></li>
-                      <li><a href="div-infomed.html">Infomed</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="blog.html">Blog</a></li>
-                </ul>
+        <div class="navbar text-neutral-content sticky top-0 z-10 bg-[#23153c]">
+          <div class="flex-1 px-2 lg:flex-none">
+            <a href="index.html">
+              <img src="./img/logo-hmsi.png" class="w-24 sm:w-28 sm:mx-9 mx-0" />
+            </a>
+          </div> 
+          <div class="flex justify-end flex-1 px-2">
+            <div class="flex items-stretch">
+              <ul class="hmsi menu menu-horizontal p-0 hidden sm:flex">
+                <li tabindex="0">
+                  <a>
+                    Tentang
+                    <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
+                  </a>
+                  <ul class="p-2 bg-base-100 text-black">
+                    <li><a href="tentang-hmsi.html">Tentang HMSI</a></li>
+                    <li><a href="lambang.html">Arti Lambang</a></li>
+                  </ul>
+                </li>
+                <li tabindex="0">
+                  <a>
+                    Divisi
+                    <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
+                  </a>
+                  <ul class="p-2 bg-base-100 text-black">
+                    <li><a href="div-inti.html">Inti</a></li>
+                    <li><a href="div-psdm.html">PSDM</a></li>
+                    <li><a href="div-humas.html">Humas</a></li>
+                    <li><a href="div-kwu.html">Kewirausahaan</a></li>
+                    <li><a href="div-psi.html">PSI</a></li>
+                    <li><a href="div-rtk.html">RTK</a></li>
+                    <li><a href="div-infomed.html">Infomed</a></li>
+                  </ul>
+                </li>
+                <li><a href="blog.html">Blog</a></li>
+              </ul>
 
-                <label for="my-drawer-4" class="drawer-button btn btn-circle swap swap-rotate inline-grid sm:hidden z-30">
-      
-                  <!-- this hidden checkbox controls the state -->
-                  <input type="checkbox"/>
-                  
-                  <!-- hamburger icon -->
-                  <svg class="swap-off fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"/></svg>
-                  
-                  <!-- close icon -->
-                  <svg class="swap-on fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><polygon points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49"/></svg>
-                  
-                </label>
-
-              </div>
+              <label for="my-drawer-4" class="drawer-button btn btn-circle swap swap-rotate inline-grid sm:hidden">
+    
+                <!-- this hidden checkbox controls the state -->
+                <input type="checkbox"/>
+                
+                <!-- hamburger icon -->
+                <svg class="swap-off fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"/></svg>
+                
+                <!-- close icon -->
+                <svg class="swap-on fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><polygon points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49"/></svg>
+                
+              </label>
             </div>
+          </div>
         </div>
 
         <!-- Konten disini -->
-
-        <section class="bg-[#23153c] text-center py-6">
-          <p class="hmsi text-4xl sm:text-6xl text-white">Divisi PSI</p>
-        </section>
-
-        <div class="hero min-h-screen bg-[#23153c]">
-            <div class="hero-content flex-col lg:flex-row px-5 sm:px-16 2xl:px-0">
-                <div class="flex justify-center">
-                    <div class="m-2 card lg:w-80 max-w-sm bg-base-100 shadow-xl text-center sm:hover:-translate-y-2 duration-100" title="panggilannya em-ye">
-                        <figure><img src="./img/pengurus/psi/IMG_8043.jpg" alt="kadiv psi" class="max-h-min"></figure>
-                        <div class="card-body p-5">
-                            <h2 class="card-title justify-center">Iqbal Manazil Yuni</h2>
-                            <p>Ketua Divisi</p>
-                        </div>
-                    </div>
+        <main>
+          <section class="mt-16 text-center py-6">
+            <p class="hmsi text-4xl sm:text-6xl text-white">Divisi PSI</p>
+          </section>
+  
+          <div class="hero min-h-screen ">
+              <div class="hero-content flex-col lg:flex-row px-5 sm:px-16 2xl:px-0">
+                  <div class="flex justify-center">
+                      <div class="m-2 card lg:w-80 max-w-sm bg-base-100 shadow-xl text-center sm:hover:-translate-y-2 duration-100" title="panggilannya em-ye">
+                          <figure><img src="./img/pengurus/psi/IMG_8043.jpg" alt="kadiv psi" class="max-h-min"></figure>
+                          <div class="card-body p-5">
+                              <h2 class="card-title justify-center">Iqbal Manazil Yuni</h2>
+                              <p>Ketua Divisi</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="text-neutral-content px-3 max-w-full text-center lg:text-left">
+                      <p class="text-lg sm:text-xl font-bold">Apa itu divisi PSI?</p>
+                      <p class="py-3 text-justify indent-4 sm:text-lg">Divisi Pengembangan Skill dan Intelektual (PSI) merupakan divisi yang mewadahi mahasiswa Sistem Informasi dalam mengembangkan Skill dan cara berpikir sebagai seorang mahasiswa IT. Divisi ini berperan penting sebagai media mahasiswa Sistem Informasi untuk lebih mengenal perkembangan IT serta prospek kerja yang dibutuhkan dunia IT sekarang. Untuk itu divisi pengembangan skill dan intelektual membutuhkan anggota yang baik dan memiliki rasa tanggung jawab, serta dapat bekerja sama antar anggota divisi lainnya.</p>
+                      <p class="text-lg sm:text-xl font-bold">Visi:</p>
+                      <p class="py-3 text-justify indent-4 sm:text-lg">Mewadahi dan menarik minat mahasiswa Sistem Informasi dalam pengembangan skill dan cara berpikir di bidang IT.</p>
+                      <p class="text-lg sm:text-xl font-bold">Misi:</p>
+                      <ol class="list-decimal list-inside py-3 sm:text-lg">
+                          <li>Mewadahi  pengembangan minat dan bakat mahasiswa Sistem Informasi.</li>
+                          <li>Menjadi wadah sebagai tempat untuk sharing wawasan atau ilmu yang dimiliki antar Mahasiswa Sistem informasi.</li>
+                          <li>Meningkatkan softskill dan hardskill mahasiswa Sistem Informasi di bidang IT.</li>
+                      </ol>
+                  </div>
+              </div>
+          </div>
+  
+          <div class="flex flex-wrap justify-evenly pb-6">
+              <div class="inline-block m-2 card lg:w-72 max-w-xs bg-base-100 shadow-xl text-center sm:hover:-translate-y-2 duration-100">
+                  <figure><img src="./img/pengurus/psi/IMG_8143.jpg" alt="sekre psi" class="max-h-min"></figure>
+                  <div class="card-body">
+                    <h2 class="card-title justify-center">Riska Shifa Salsabilla</h2>
+                    <p>Sekretaris</p>
+                  </div>
+              </div>
+              <div class="inline-block m-2 card lg:w-72 max-w-xs bg-base-100 shadow-xl text-center sm:hover:-translate-y-2 duration-100">
+                  <figure><img src="./img/pengurus/psi/IMG_7941.jpg" alt="bendahara psi" class="max-h-min"></figure>
+                  <div class="card-body">
+                      <h2 class="card-title justify-center">Rahmadina</h2>
+                      <p>Bendahara</p>
+                  </div>
+              </div>
+          </div>
+  
+          <section class="text-center py-16">
+            <p class="hmsi text-2xl sm:text-4xl text-white pb-4">Staff</p>
+            <div class=" flex flex-col sm:flex-row flex-wrap justify-evenly text-neutral-content">
+              <ol class="list-none text-lg sm:text-xl">
+                <li>Ginda Teguh Imani</li>
+                <li>Nada Safarina</li>
+              </ol>
+              <ol class="list-none text-lg sm:text-xl">
+                <li>Kemal Muhammad Hiero</li>
+              </ol>
+              <ol class="list-none text-lg sm:text-xl">
+                <li>Hagi Siraj Sumanta</li>
+                <li>Alif Abdul Rauf</li>
+              </ol>
+            </div>
+          </section>
+  
+          <section class="text-center py-6 px-10">
+            <p class="hmsi text-2xl sm:text-4xl text-white pb-4">Program Kerja</p>
+            <center>
+              <div class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-2 max-w-4xl text-left">
+                <input type="checkbox" />
+                <div class="collapse-title text-lg font-medium">
+                  Pemeliharaan dan Pengelolaan Sistem Informasi HMSI
                 </div>
-                <div class=" text-neutral-content px-3 max-w-full text-center lg:text-left">
-                    <p class="text-lg sm:text-xl font-bold">Apa itu divisi PSI?</p>
-                    <p class="py-3 text-justify indent-4 sm:text-lg">Divisi Pengembangan Skill dan Intelektual (PSI) merupakan divisi yang mewadahi mahasiswa Sistem Informasi dalam mengembangkan Skill dan cara berpikir sebagai seorang mahasiswa IT. Divisi ini berperan penting sebagai media mahasiswa Sistem Informasi untuk lebih mengenal perkembangan IT serta prospek kerja yang dibutuhkan dunia IT sekarang. Untuk itu divisi pengembangan skill dan intelektual membutuhkan anggota yang baik dan memiliki rasa tanggung jawab, serta dapat bekerja sama antar anggota divisi lainnya.</p>
-                    <p class="text-lg sm:text-xl font-bold">Visi:</p>
-                    <p class="py-3 text-justify indent-4 sm:text-lg">Mewadahi dan menarik minat mahasiswa Sistem Informasi dalam pengembangan skill dan cara berpikir di bidang IT.</p>
-                    <p class="text-lg sm:text-xl font-bold">Misi:</p>
-                    <ol class="list-decimal list-inside py-3 sm:text-lg">
-                        <li>Mewadahi  pengembangan minat dan bakat mahasiswa Sistem Informasi.</li>
-                        <li>Menjadi wadah sebagai tempat untuk sharing wawasan atau ilmu yang dimiliki antar Mahasiswa Sistem informasi.</li>
-                        <li>Meningkatkan softskill dan hardskill mahasiswa Sistem Informasi di bidang IT.</li>
-                    </ol>
+                <div class="collapse-content"> 
+                  <p class="font-bold">Latar belakang</p>
+                  <p>Karena dibutuhkan sebuah sistem informasi yang dapat mengelola informasi serta dapat diakses oleh HMSI</p>
+                  <p class="font-bold mt-2">Tujuan</p>
+                  <p>Melakukan pemeliharaan sistem informasi HMSI dan mengelola sistem yang sudah ada</p>
                 </div>
-            </div>
-        </div>
-
-        <div class="bg-[#23153c] flex flex-wrap justify-evenly pb-6">
-            <div class="inline-block m-2 card lg:w-72 max-w-xs bg-base-100 shadow-xl text-center sm:hover:-translate-y-2 duration-100">
-                <figure><img src="./img/pengurus/psi/IMG_8143.jpg" alt="sekre psi" class="max-h-min"></figure>
-                <div class="card-body">
-                  <h2 class="card-title justify-center">Riska Shifa Salsabilla</h2>
-                  <p>Sekretaris</p>
+              </div>
+              <div class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-2 max-w-4xl text-left">
+                <input type="checkbox" />
+                <div class="collapse-title text-lg font-medium">
+                  Exam Preparation (XAMPP)
                 </div>
-            </div>
-            <div class="inline-block m-2 card lg:w-72 max-w-xs bg-base-100 shadow-xl text-center sm:hover:-translate-y-2 duration-100">
-                <figure><img src="./img/pengurus/psi/IMG_7941.jpg" alt="bendahara psi" class="max-h-min"></figure>
-                <div class="card-body">
-                    <h2 class="card-title justify-center">Rahmadina</h2>
-                    <p>Bendahara</p>
+                <div class="collapse-content"> 
+                  <p class="font-bold">Latar belakang</p>
+                  <p>Karena padatnya kegiatan di kampus yang membuat mahasiswa kesusahan untuk belajar dalam menghadapi ujian maka dibutuhkan sebuah kegiatan yang dapat membantu mahasiswa sistem informasi dalam mempersiapkan dirinya untuk menghadapi pelaksanaan ujian(UTS/UAS)</p>
+                  <p class="font-bold mt-2">Tujuan</p>
+                  <p>Mewadahi mahasiswa Sistem Informasi dalam pembelajaran persiapan ujian, dan sebagai tempat berbagi ilmu antar sesama mahasiswa sistem informasi.</p>
                 </div>
-            </div>
-        </div>
-
-        <section class="bg-[#23153c] text-center py-16">
-          <p class="hmsi text-2xl sm:text-4xl text-white pb-4">Staff</p>
-          <div class="bg-[#23153c] flex flex-col sm:flex-row flex-wrap justify-evenly text-neutral-content">
-            <ol class="list-none text-lg sm:text-xl">
-              <li>Ginda Teguh Imani</li>
-              <li>Nada Safarina</li>
-            </ol>
-            <ol class="list-none text-lg sm:text-xl">
-              <li>Kemal Muhammad Hiero</li>
-            </ol>
-            <ol class="list-none text-lg sm:text-xl">
-              <li>Hagi Siraj Sumanta</li>
-              <li>Alif Abdul Rauf</li>
-            </ol>
-          </div>
-        </section>
-
-      <section class="bg-[#23153c] text-center py-6 px-10">
-        <p class="hmsi text-2xl sm:text-4xl text-white pb-4">Program Kerja</p>
-        <center>
-          <div class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-2 max-w-4xl text-left">
-            <input type="checkbox" />
-            <div class="collapse-title text-lg font-medium">
-              Pemeliharaan dan Pengelolaan Sistem Informasi HMSI
-            </div>
-            <div class="collapse-content"> 
-              <p class="font-bold">Latar belakang</p>
-              <p>Karena dibutuhkan sebuah sistem informasi yang dapat mengelola informasi serta dapat diakses oleh HMSI</p>
-              <p class="font-bold mt-2">Tujuan</p>
-              <p>Melakukan pemeliharaan sistem informasi HMSI dan mengelola sistem yang sudah ada</p>
-            </div>
-          </div>
-          <div class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-2 max-w-4xl text-left">
-            <input type="checkbox" />
-            <div class="collapse-title text-lg font-medium">
-              Exam Preparation (XAMPP)
-            </div>
-            <div class="collapse-content"> 
-              <p class="font-bold">Latar belakang</p>
-              <p>Karena padatnya kegiatan di kampus yang membuat mahasiswa kesusahan untuk belajar dalam menghadapi ujian maka dibutuhkan sebuah kegiatan yang dapat membantu mahasiswa sistem informasi dalam mempersiapkan dirinya untuk menghadapi pelaksanaan ujian(UTS/UAS)</p>
-              <p class="font-bold mt-2">Tujuan</p>
-              <p>Mewadahi mahasiswa Sistem Informasi dalam pembelajaran persiapan ujian, dan sebagai tempat berbagi ilmu antar sesama mahasiswa sistem informasi.</p>
-            </div>
-          </div>
-          <div class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-2 max-w-4xl text-left">
-            <input type="checkbox" />
-            <div class="collapse-title text-lg font-medium">
-              Pelatihan Teknologi Informasi
-            </div>
-            <div class="collapse-content"> 
-              <p class="font-bold">Latar belakang</p>
-              <p>Karena perkembangan teknologi yang cukup cepat serta semakin ketatnya persaingan dunia kerja di luar sana maka dibutuhkan sebuah kegiatan untuk dapat meningkatkan hardskill dari mahasiswa sistem informasi dalam menghadapi permintaan dunia kerja pada saat sekarang.</p>
-              <p class="font-bold mt-2">Tujuan</p>
-              <p>Mahasiswa sistem informasi memiliki hardskill yang berguna untuk membantu perkuliahan</p>
-            </div>
-          </div>
-          <div class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-2 max-w-4xl text-left">
-            <input type="checkbox" />
-            <div class="collapse-title text-lg font-medium">
-              HACKATHON
-            </div>
-            <div class="collapse-content"> 
-              <p class="font-bold">Latar belakang</p>
-              <p>ISCE merupakan agenda 2 tahun sekali dari HMSI. ISCE seharusnya dilaksanakan pada tahun 2020 (tidak terlaksana karena Covid-19) dan tahun 2022. Menimbang semua kegiatan tahunan HIMA dan UKMF dimasukkan ke dalam LUSTRUM II FTI Unand, maka kegiatan ISCE 2022 akan dilaksanakan dengan ikut serta menyukseskan kegiatan Hackathon. Menimbang kepengurusan sebelumnya juga terlibat dalam proses pengonsepan acara yang berkoordinasi dengan Panitia Lustrum II.</p>
-              <p class="font-bold mt-2">Tujuan</p>
-              <p>HMSI ikut serta dalam menyukseskan acara hackathon </p>
-            </div>
-          </div>
-        </center>
-      </section>
-
+              </div>
+              <div class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-2 max-w-4xl text-left">
+                <input type="checkbox" />
+                <div class="collapse-title text-lg font-medium">
+                  Pelatihan Teknologi Informasi
+                </div>
+                <div class="collapse-content"> 
+                  <p class="font-bold">Latar belakang</p>
+                  <p>Karena perkembangan teknologi yang cukup cepat serta semakin ketatnya persaingan dunia kerja di luar sana maka dibutuhkan sebuah kegiatan untuk dapat meningkatkan hardskill dari mahasiswa sistem informasi dalam menghadapi permintaan dunia kerja pada saat sekarang.</p>
+                  <p class="font-bold mt-2">Tujuan</p>
+                  <p>Mahasiswa sistem informasi memiliki hardskill yang berguna untuk membantu perkuliahan</p>
+                </div>
+              </div>
+              <div class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-2 max-w-4xl text-left">
+                <input type="checkbox" />
+                <div class="collapse-title text-lg font-medium">
+                  HACKATHON
+                </div>
+                <div class="collapse-content"> 
+                  <p class="font-bold">Latar belakang</p>
+                  <p>ISCE merupakan agenda 2 tahun sekali dari HMSI. ISCE seharusnya dilaksanakan pada tahun 2020 (tidak terlaksana karena Covid-19) dan tahun 2022. Menimbang semua kegiatan tahunan HIMA dan UKMF dimasukkan ke dalam LUSTRUM II FTI Unand, maka kegiatan ISCE 2022 akan dilaksanakan dengan ikut serta menyukseskan kegiatan Hackathon. Menimbang kepengurusan sebelumnya juga terlibat dalam proses pengonsepan acara yang berkoordinasi dengan Panitia Lustrum II.</p>
+                  <p class="font-bold mt-2">Tujuan</p>
+                  <p>HMSI ikut serta dalam menyukseskan acara hackathon </p>
+                </div>
+              </div>
+            </center>
+          </section>
+        </main>
         <!-- konten sampai sini -->
 
-        <footer class="footer footer-center p-10 text-neutral-content bg-[#23153c] overflow-visible">
+        <footer class="footer footer-center p-10 text-neutral-content overflow-visible">
           <div>
             <div class="grid grid-flow-col gap-4">
               <a href="https://twitter.com/HMSI_UNAND" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a> 

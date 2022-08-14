@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="id" class="bg-[#23153c] scroll-smooth">
+<html lang="id" class="scroll-smooth bg-[#23153c]">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,264 +11,263 @@
 
     <title>Divisi PSDM | HMSI Universitas Andalas</title>
 </head>
-<body class="bg-[#23153c]">
+<body>
 
-    <div class="drawer drawer-end fixed z-20">
+    <div class="drawer drawer-end">
       <input id="my-drawer-4" type="checkbox" class="drawer-toggle" />
       <div class="drawer-content">
 
-        <div class="navbar bg-[#23153c] text-neutral-content">
-            <div class="flex-1 px-2 lg:flex-none">
-              <a href="index.html">
-                <img src="./img/logo-hmsi.png" class="w-32 sm:mx-9 mx-0" />
-              </a>
-            </div> 
-            <div class="flex justify-end flex-1 px-2">
-              <div class="flex items-stretch">
-                <ul class="hmsi menu menu-horizontal p-0 z-10 hidden sm:flex">
-                  <li tabindex="0">
-                    <a>
-                      Tentang
-                      <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
-                    </a>
-                    <ul class="p-2 bg-base-100 text-black">
-                      <li><a href="tentang-hmsi.html">Tentang HMSI</a></li>
-                      <li><a href="lambang.html">Arti Lambang</a></li>
-                    </ul>
-                  </li>
-                  <li tabindex="0">
-                    <a>
-                      Divisi
-                      <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
-                    </a>
-                    <ul class="p-2 bg-base-100 text-black">
-                      <li><a href="div-inti.html">Inti</a></li>
-                      <li><a href="div-psdm.html">PSDM</a></li>
-                      <li><a href="div-humas.html">Humas</a></li>
-                      <li><a href="div-kwu.html">Kewirausahaan</a></li>
-                      <li><a href="div-psi.html">PSI</a></li>
-                      <li><a href="div-rtk.html">RTK</a></li>
-                      <li><a href="div-infomed.html">Infomed</a></li>
-                    </ul>
-                  </li>
-                  <li><a href="blog.html">Blog</a></li>
-                </ul>
+        <div class="navbar text-neutral-content sticky top-0 z-10 bg-[#23153c]">
+          <div class="flex-1 px-2 lg:flex-none">
+            <a href="index.html">
+              <img src="./img/logo-hmsi.png" class="w-24 sm:w-28 sm:mx-9 mx-0" />
+            </a>
+          </div> 
+          <div class="flex justify-end flex-1 px-2">
+            <div class="flex items-stretch">
+              <ul class="hmsi menu menu-horizontal p-0 hidden sm:flex">
+                <li tabindex="0">
+                  <a>
+                    Tentang
+                    <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
+                  </a>
+                  <ul class="p-2 bg-base-100 text-black">
+                    <li><a href="tentang-hmsi.html">Tentang HMSI</a></li>
+                    <li><a href="lambang.html">Arti Lambang</a></li>
+                  </ul>
+                </li>
+                <li tabindex="0">
+                  <a>
+                    Divisi
+                    <svg class="fill-current" xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24"><path d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z"/></svg>
+                  </a>
+                  <ul class="p-2 bg-base-100 text-black">
+                    <li><a href="div-inti.html">Inti</a></li>
+                    <li><a href="div-psdm.html">PSDM</a></li>
+                    <li><a href="div-humas.html">Humas</a></li>
+                    <li><a href="div-kwu.html">Kewirausahaan</a></li>
+                    <li><a href="div-psi.html">PSI</a></li>
+                    <li><a href="div-rtk.html">RTK</a></li>
+                    <li><a href="div-infomed.html">Infomed</a></li>
+                  </ul>
+                </li>
+                <li><a href="blog.html">Blog</a></li>
+              </ul>
 
-                <label for="my-drawer-4" class="drawer-button btn btn-circle swap swap-rotate inline-grid sm:hidden z-30">
-      
-                  <!-- this hidden checkbox controls the state -->
-                  <input type="checkbox"/>
-                  
-                  <!-- hamburger icon -->
-                  <svg class="swap-off fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"/></svg>
-                  
-                  <!-- close icon -->
-                  <svg class="swap-on fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><polygon points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49"/></svg>
-                  
-                </label>
-
-              </div>
+              <label for="my-drawer-4" class="drawer-button btn btn-circle swap swap-rotate inline-grid sm:hidden">
+    
+                <!-- this hidden checkbox controls the state -->
+                <input type="checkbox"/>
+                
+                <!-- hamburger icon -->
+                <svg class="swap-off fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><path d="M64,384H448V341.33H64Zm0-106.67H448V234.67H64ZM64,128v42.67H448V128Z"/></svg>
+                
+                <!-- close icon -->
+                <svg class="swap-on fill-current" xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 512 512"><polygon points="400 145.49 366.51 112 256 222.51 145.49 112 112 145.49 222.51 256 112 366.51 145.49 400 256 289.49 366.51 400 400 366.51 289.49 256 400 145.49"/></svg>
+                
+              </label>
             </div>
+          </div>
         </div>
 
         <!-- Konten disini -->
-
-        <section class="bg-[#23153c] text-center py-6">
-            <p class="hmsi text-4xl sm:text-6xl text-white">Divisi PSDM</p>
-        </section>
-
-        <div class="hero min-h-screen bg-[#23153c]">
-            <div class="hero-content flex-col lg:flex-row px-5 sm:px-16 2xl:px-0">
-                <div class="flex justify-center">
-                    <div class="m-2 card lg:w-80 max-w-sm bg-base-100 shadow-xl text-center sm:hover:-translate-y-2 duration-100">
-                        <figure><img src="./img/pengurus/psdm/IMG_7841.jpg" alt="kadiv psdm" class="max-h-min"></figure>
-                        <div class="card-body p-5">
-                            <h2 class="card-title justify-center">Ahmad Fauzan Alqadri</h2>
-                            <p>Ketua Divisi</p>
-                        </div>
-                    </div>
-                </div>
-                <div class=" text-neutral-content px-3 max-w-full text-center lg:text-left">
-                    <p class="text-lg sm:text-xl font-bold">Apa itu divisi PSDM?</p>
-                    <p class="py-3 text-justify indent-4 sm:text-lg">Divisi yang bertanggung jawab dalam menghimpun anggota HMSI dalam mengoptimalkan dan memberdayakan seluruh potensi yang dimiliki melalui kegiatan yang berkaitan dengan nonakademik, meningkatkan peran aktif mahasiswa dalam berbagai kegiatan, serta dapat memberikan solusi terhadap masalah yang dihadapi anggota HMSI.</p>
-                    <p class="text-lg sm:text-xl font-bold">Visi:</p>
-                    <p class="py-3 text-justify indent-4 sm:text-lg">Meningkatkan kualitas sumber daya mahasiswa menjadi lebih produktif dan kompeten serta juga turut serta meningkatkan tanggung jawab sosial mahasiswa terhadap masyarakat sekitar berlandaskan budaya, kekeluargaan, nilai - nilai religius dan intelektual serta mampu menampung wadah kreativitas setiap anggotanya.</p>
-                    <p class="text-lg sm:text-xl font-bold">Misi:</p>
-                    <ol class="list-decimal list-inside py-3 sm:text-lg">
-                        <li>Mengadakan program-program akademik maupun non-akademik untuk meningkatkan softskill mahasiswa.</li>
-                        <li>Menjadi wadah anggota HMSI dalam mewujudkan kreativitas dan gagasannya.</li>
-                    </ol>
-                </div>
-            </div>
-        </div>
-
-        <div class="bg-[#23153c] flex flex-wrap justify-evenly pb-6">
-            <div class="inline-block m-2 card lg:w-72 max-w-xs bg-base-100 shadow-xl text-center sm:hover:-translate-y-2 duration-100">
-                <figure><img src="./img/pengurus/psdm/IMG_7865.jpg" alt="sekre psdm" class="max-h-min"></figure>
-                <div class="card-body">
-                  <h2 class="card-title justify-center">Reysha Irsyalina</h2>
-                  <p>Sekretaris</p>
-                </div>
-            </div>
-            <div class="inline-block m-2 card lg:w-72 max-w-xs bg-base-100 shadow-xl text-center sm:hover:-translate-y-2 duration-100">
-                <figure><img src="./img/pengurus/psdm/IMG_7910.jpg" alt="bendahara psdm" class="max-h-min"></figure>
-                <div class="card-body">
-                    <h2 class="card-title justify-center">Winanda A. Harisya</h2>
-                    <p>Bendahara</p>
-                </div>
-            </div>
-        </div>
-
-        <section class="bg-[#23153c] text-center py-6">
-          <p class="hmsi text-2xl sm:text-4xl text-white pb-4">Staff</p>
-          <div class="bg-[#23153c] flex flex-col sm:flex-row flex-wrap justify-evenly text-neutral-content">
-            <ol class="list-none text-lg sm:text-xl">
-              <li>Boby Darmawan</li>
-              <li>Muhammad Farhan. A</li>
-              <li>Doni Hamdani</li>
-              <li>Muhammad Idris</li>
-            </ol>
-            <ol class="list-none text-lg sm:text-xl">
-              <li>Vallen Adithya Rekhsana</li>
-              <li>Muhammad Zaim Milzam</li>
-              <li>Muhammad Yudhistira</li>
-            </ol>
-            <ol class="list-none text-lg sm:text-xl">
-              <li>Siti Nur Aisah</li>
-              <li>Muhammad Farhan. A</li>
-              <li>Doni Hamdani</li>
-              <li>Muhammad Idris</li>
-            </ol>
+        <main>          
+          <section class="mt-16 text-center py-6">
+              <p class="hmsi text-4xl sm:text-6xl text-white">Divisi PSDM</p>
+          </section>
+  
+          <div class="hero min-h-screen">
+              <div class="hero-content flex-col lg:flex-row px-5 sm:px-16 2xl:px-0">
+                  <div class="flex justify-center">
+                      <div class="m-2 card lg:w-80 max-w-sm bg-base-100 shadow-xl text-center sm:hover:-translate-y-2 duration-100">
+                          <figure><img src="./img/pengurus/psdm/IMG_7841.jpg" alt="kadiv psdm" class="max-h-min"></figure>
+                          <div class="card-body p-5">
+                              <h2 class="card-title justify-center">Ahmad Fauzan Alqadri</h2>
+                              <p>Ketua Divisi</p>
+                          </div>
+                      </div>
+                  </div>
+                  <div class=" text-neutral-content px-3 max-w-full text-center lg:text-left">
+                      <p class="text-lg sm:text-xl font-bold">Apa itu divisi PSDM?</p>
+                      <p class="py-3 text-justify indent-4 sm:text-lg">Divisi yang bertanggung jawab dalam menghimpun anggota HMSI dalam mengoptimalkan dan memberdayakan seluruh potensi yang dimiliki melalui kegiatan yang berkaitan dengan nonakademik, meningkatkan peran aktif mahasiswa dalam berbagai kegiatan, serta dapat memberikan solusi terhadap masalah yang dihadapi anggota HMSI.</p>
+                      <p class="text-lg sm:text-xl font-bold">Visi:</p>
+                      <p class="py-3 text-justify indent-4 sm:text-lg">Meningkatkan kualitas sumber daya mahasiswa menjadi lebih produktif dan kompeten serta juga turut serta meningkatkan tanggung jawab sosial mahasiswa terhadap masyarakat sekitar berlandaskan budaya, kekeluargaan, nilai - nilai religius dan intelektual serta mampu menampung wadah kreativitas setiap anggotanya.</p>
+                      <p class="text-lg sm:text-xl font-bold">Misi:</p>
+                      <ol class="list-decimal list-inside py-3 sm:text-lg">
+                          <li>Mengadakan program-program akademik maupun non-akademik untuk meningkatkan softskill mahasiswa.</li>
+                          <li>Menjadi wadah anggota HMSI dalam mewujudkan kreativitas dan gagasannya.</li>
+                      </ol>
+                  </div>
+              </div>
           </div>
-        </section>
-
-        <section class="bg-[#23153c] text-center py-6 px-10">
-          <p class="hmsi text-2xl sm:text-4xl text-white pb-4">Program Kerja</p>
-          <center>
-            <div class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-2 max-w-4xl text-left">
-              <input type="checkbox" />
-              <div class="collapse-title text-lg font-medium">
-                Upgrading Pengurus HMSI
+  
+          <div class="flex flex-wrap justify-evenly pb-6">
+              <div class="inline-block m-2 card lg:w-72 max-w-xs bg-base-100 shadow-xl text-center sm:hover:-translate-y-2 duration-100">
+                  <figure><img src="./img/pengurus/psdm/IMG_7865.jpg" alt="sekre psdm" class="max-h-min"></figure>
+                  <div class="card-body">
+                    <h2 class="card-title justify-center">Reysha Irsyalina</h2>
+                    <p>Sekretaris</p>
+                  </div>
               </div>
-              <div class="collapse-content"> 
-                <p class="font-bold">Latar belakang</p>
-                <p>Perlunya pemberian materi terkait problematika berorganisasi pengurus HMSI untuk menjalankan kepengurusan</p>
-                <p class="font-bold mt-2">Tujuan</p>
-                <p>Meningkatkan mutu dan menambah pengetahuan pengurus HMSI mengenai problematika berorganisasi.</p>
+              <div class="inline-block m-2 card lg:w-72 max-w-xs bg-base-100 shadow-xl text-center sm:hover:-translate-y-2 duration-100">
+                  <figure><img src="./img/pengurus/psdm/IMG_7910.jpg" alt="bendahara psdm" class="max-h-min"></figure>
+                  <div class="card-body">
+                      <h2 class="card-title justify-center">Winanda A. Harisya</h2>
+                      <p>Bendahara</p>
+                  </div>
               </div>
+          </div>
+  
+          <section class="text-center py-6">
+            <p class="hmsi text-2xl sm:text-4xl text-white pb-4">Staff</p>
+            <div class="flex flex-col sm:flex-row flex-wrap justify-evenly text-neutral-content">
+              <ol class="list-none text-lg sm:text-xl">
+                <li>Boby Darmawan</li>
+                <li>Muhammad Farhan. A</li>
+                <li>Doni Hamdani</li>
+                <li>Muhammad Idris</li>
+              </ol>
+              <ol class="list-none text-lg sm:text-xl">
+                <li>Vallen Adithya Rekhsana</li>
+                <li>Muhammad Zaim Milzam</li>
+                <li>Muhammad Yudhistira</li>
+              </ol>
+              <ol class="list-none text-lg sm:text-xl">
+                <li>Siti Nur Aisah</li>
+                <li>Muhammad Farhan. A</li>
+                <li>Doni Hamdani</li>
+                <li>Muhammad Idris</li>
+              </ol>
             </div>
-            <div class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-2 max-w-4xl text-left">
-              <input type="checkbox" />
-              <div class="collapse-title text-lg font-medium">
-                Gathering Pengurus HMSI
+          </section>
+  
+          <section class="text-center py-6 px-10">
+            <p class="hmsi text-2xl sm:text-4xl text-white pb-4">Program Kerja</p>
+            <center>
+              <div class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-2 max-w-4xl text-left">
+                <input type="checkbox" />
+                <div class="collapse-title text-lg font-medium">
+                  Upgrading Pengurus HMSI
+                </div>
+                <div class="collapse-content"> 
+                  <p class="font-bold">Latar belakang</p>
+                  <p>Perlunya pemberian materi terkait problematika berorganisasi pengurus HMSI untuk menjalankan kepengurusan</p>
+                  <p class="font-bold mt-2">Tujuan</p>
+                  <p>Meningkatkan mutu dan menambah pengetahuan pengurus HMSI mengenai problematika berorganisasi.</p>
+                </div>
               </div>
-              <div class="collapse-content"> 
-                <p class="font-bold">Latar belakang</p>
-                <p>Perlu adanya kegiatan yang dapat mempererat silaturahmi antar pengurus HMSI periode 2022 agar kerjasama dalam kepengurusan dapat berjalan dengan baik.</p>
-                <p class="font-bold mt-2">Tujuan</p>
-                <ol class="list-decimal list-inside">
-                  <li>Menumbuhkan rasa kekeluargaan antar pengurus HMSI periode 2022.</li>
-                  <li>Menambahkan kekompakan pengurus HMSI periode 2022.</li>
-                  <li>Menjalin silaturahmi antara pengurus HMSI 2022.</li>
-                </ol>
+              <div class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-2 max-w-4xl text-left">
+                <input type="checkbox" />
+                <div class="collapse-title text-lg font-medium">
+                  Gathering Pengurus HMSI
+                </div>
+                <div class="collapse-content"> 
+                  <p class="font-bold">Latar belakang</p>
+                  <p>Perlu adanya kegiatan yang dapat mempererat silaturahmi antar pengurus HMSI periode 2022 agar kerjasama dalam kepengurusan dapat berjalan dengan baik.</p>
+                  <p class="font-bold mt-2">Tujuan</p>
+                  <ol class="list-decimal list-inside">
+                    <li>Menumbuhkan rasa kekeluargaan antar pengurus HMSI periode 2022.</li>
+                    <li>Menambahkan kekompakan pengurus HMSI periode 2022.</li>
+                    <li>Menjalin silaturahmi antara pengurus HMSI 2022.</li>
+                  </ol>
+                </div>
               </div>
-            </div>
-            <div class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-2 max-w-4xl text-left">
-              <input type="checkbox" />
-              <div class="collapse-title text-lg font-medium">
-                Pengelolaan Saran dan Pengaduan
+              <div class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-2 max-w-4xl text-left">
+                <input type="checkbox" />
+                <div class="collapse-title text-lg font-medium">
+                  Pengelolaan Saran dan Pengaduan
+                </div>
+                <div class="collapse-content"> 
+                  <p class="font-bold">Latar belakang</p>
+                  <p>Perlunya wadah agar mahasiswa SI dapat menyampaikan saran dan keluhan terkait masalah akademik dan non akademik</p>
+                  <p class="font-bold mt-2">Tujuan</p>
+                  <p>Sebagai wadah untuk menyampaikan saran dan keluhan terkait masalah akademik dan non akademik.</p>
+                </div>
               </div>
-              <div class="collapse-content"> 
-                <p class="font-bold">Latar belakang</p>
-                <p>Perlunya wadah agar mahasiswa SI dapat menyampaikan saran dan keluhan terkait masalah akademik dan non akademik</p>
-                <p class="font-bold mt-2">Tujuan</p>
-                <p>Sebagai wadah untuk menyampaikan saran dan keluhan terkait masalah akademik dan non akademik.</p>
+              <div class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-2 max-w-4xl text-left">
+                <input type="checkbox" />
+                <div class="collapse-title text-lg font-medium">
+                  ISL (Information System League)
+                </div>
+                <div class="collapse-content"> 
+                  <p class="font-bold">Latar belakang</p>
+                  <p>Perlu adanya kegiatan keolahragaan yang dapat meningkatkan silaturahmi antar mahasiswa sistem informasi sehingga dapat menimbulkan jiwa sportivitas</p>
+                  <p class="font-bold mt-2">Tujuan</p>
+                  <ol class="list-decimal list-inside">
+                    <li>Mempererat tali silaturahmi sesama anggota HMSI.</li>
+                    <li>Meningkatkan kebersamaan dan jiwa sportivitas.</li>
+                  </ol>
+                </div>
               </div>
-            </div>
-            <div class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-2 max-w-4xl text-left">
-              <input type="checkbox" />
-              <div class="collapse-title text-lg font-medium">
-                ISL (Information System League)
+              <div class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-2 max-w-4xl text-left">
+                <input type="checkbox" />
+                <div class="collapse-title text-lg font-medium">
+                  Pendataan Prestasi Mahasiswa
+                </div>
+                <div class="collapse-content"> 
+                  <p class="font-bold">Latar belakang</p>
+                  <p>Data mahasiswa berprestasi diperlukan oleh pihak jurusan maupun HMSI untuk mempersiapkan mahasiswa menghadapi lomba akademis kedepannya dan untuk mengapresiasi mahasiswa yang berprestasi</p>
+                  <p class="font-bold mt-2">Tujuan</p>
+                  <ol class="list-decimal list-inside">
+                    <li>Meningkatkan motivasi anggota HMSI untuk selalu berprestasi.</li>
+                    <li>Bentuk apresiasi kepada anggota HMSI yang berprestasi.</li>
+                  </ol>
+                </div>
               </div>
-              <div class="collapse-content"> 
-                <p class="font-bold">Latar belakang</p>
-                <p>Perlu adanya kegiatan keolahragaan yang dapat meningkatkan silaturahmi antar mahasiswa sistem informasi sehingga dapat menimbulkan jiwa sportivitas</p>
-                <p class="font-bold mt-2">Tujuan</p>
-                <ol class="list-decimal list-inside">
-                  <li>Mempererat tali silaturahmi sesama anggota HMSI.</li>
-                  <li>Meningkatkan kebersamaan dan jiwa sportivitas.</li>
-                </ol>
+              <div class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-2 max-w-4xl text-left">
+                <input type="checkbox" />
+                <div class="collapse-title text-lg font-medium">
+                  Kaderisasi HMSI 2021
+                </div>
+                <div class="collapse-content"> 
+                  <p class="font-bold">Latar belakang</p>
+                  <p>Perlunya pelaksanaan kaderisasi 2021  untuk proses pembinaan sikap, karakter dan pola pikir setiap mahasiswa SI tahun 2021 yang dipertanggungjawabkan oleh pengurus HMSI 2022 sampai terbentuknya pengurus HMSI 2023</p>
+                  <p class="font-bold mt-2">Tujuan</p>
+                  <p>Pembentukan sikap, karakter dan pola pikir seluruh mahasiswa SI tahun 2021 sesuai dengan konsep kaderisasi sampai dilantiknya mereka menjadi anggota sah HMSI </p>
+                </div>
               </div>
-            </div>
-            <div class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-2 max-w-4xl text-left">
-              <input type="checkbox" />
-              <div class="collapse-title text-lg font-medium">
-                Pendataan Prestasi Mahasiswa
+              <div class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-2 max-w-4xl text-left">
+                <input type="checkbox" />
+                <div class="collapse-title text-lg font-medium">
+                  Perancangan Kaderisasi HMSI 2022
+                </div>
+                <div class="collapse-content"> 
+                  <p class="font-bold">Latar belakang</p>
+                  <p>Perlunya persiapan pembentukan panitia dan penyusunan konsep kaderisasi 2022  untuk proses pembinaan sikap, karakter dan pola pikir setiap mahasiswa SI tahun 2022 yang dipertanggungjawabkan oleh pengurus HMSI 2022 sampai terbentuknya pengurus HMSI 2023</p>
+                  <p class="font-bold mt-2">Tujuan</p>
+                  <p>Pembentukan panitia dan konsep kaderisasi HMSI 2022</p>
+                </div>
               </div>
-              <div class="collapse-content"> 
-                <p class="font-bold">Latar belakang</p>
-                <p>Data mahasiswa berprestasi diperlukan oleh pihak jurusan maupun HMSI untuk mempersiapkan mahasiswa menghadapi lomba akademis kedepannya dan untuk mengapresiasi mahasiswa yang berprestasi</p>
-                <p class="font-bold mt-2">Tujuan</p>
-                <ol class="list-decimal list-inside">
-                  <li>Meningkatkan motivasi anggota HMSI untuk selalu berprestasi.</li>
-                  <li>Bentuk apresiasi kepada anggota HMSI yang berprestasi.</li>
-                </ol>
+              <div class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-2 max-w-4xl text-left">
+                <input type="checkbox" />
+                <div class="collapse-title text-lg font-medium">
+                  Pemberitahuan Seminar Hasil dan KP Mahasiswa
+                </div>
+                <div class="collapse-content"> 
+                  <p class="font-bold">Latar belakang</p>
+                  <p>Perlunya informasi terkait mahasiswa sistem informasi yang semhas agar dapat meningkatkan partisipasi untuk menghadiri semhas mahasiswa tersebut.</p>
+                  <p class="font-bold mt-2">Tujuan</p>
+                  <p>Meningkatkan partisipasi anggota HMSI untuk menghadiri seminar hasil dan KP mahasiswa Sistem Informasi.</p>
+                </div>
               </div>
-            </div>
-            <div class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-2 max-w-4xl text-left">
-              <input type="checkbox" />
-              <div class="collapse-title text-lg font-medium">
-                Kaderisasi HMSI 2021
+              <div class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-2 max-w-4xl text-left">
+                <input type="checkbox" />
+                <div class="collapse-title text-lg font-medium">
+                  Penyambutan Mahasiswa Baru Sistem Informasi 2022
+                </div>
+                <div class="collapse-content"> 
+                  <p class="font-bold">Latar belakang</p>
+                  <p>Perlunya sarana untuk memberikan informasi terkait jurusan sistem informasi dan juga kampus kepada mahasiswa baru SI agar dapat mengenal jurusan dan himpunan secara singkat yang ada di Sistem Informasi.</p>
+                  <p class="font-bold mt-2">Tujuan</p>
+                  <p>Sarana berbagi informasi bagi mahasiswa baru SI untuk mengetahui hal-hal seputar jurusan dan himpunan.</p>
+                </div>
               </div>
-              <div class="collapse-content"> 
-                <p class="font-bold">Latar belakang</p>
-                <p>Perlunya pelaksanaan kaderisasi 2021  untuk proses pembinaan sikap, karakter dan pola pikir setiap mahasiswa SI tahun 2021 yang dipertanggungjawabkan oleh pengurus HMSI 2022 sampai terbentuknya pengurus HMSI 2023</p>
-                <p class="font-bold mt-2">Tujuan</p>
-                <p>Pembentukan sikap, karakter dan pola pikir seluruh mahasiswa SI tahun 2021 sesuai dengan konsep kaderisasi sampai dilantiknya mereka menjadi anggota sah HMSI </p>
-              </div>
-            </div>
-            <div class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-2 max-w-4xl text-left">
-              <input type="checkbox" />
-              <div class="collapse-title text-lg font-medium">
-                Perancangan Kaderisasi HMSI 2022
-              </div>
-              <div class="collapse-content"> 
-                <p class="font-bold">Latar belakang</p>
-                <p>Perlunya persiapan pembentukan panitia dan penyusunan konsep kaderisasi 2022  untuk proses pembinaan sikap, karakter dan pola pikir setiap mahasiswa SI tahun 2022 yang dipertanggungjawabkan oleh pengurus HMSI 2022 sampai terbentuknya pengurus HMSI 2023</p>
-                <p class="font-bold mt-2">Tujuan</p>
-                <p>Pembentukan panitia dan konsep kaderisasi HMSI 2022</p>
-              </div>
-            </div>
-            <div class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-2 max-w-4xl text-left">
-              <input type="checkbox" />
-              <div class="collapse-title text-lg font-medium">
-                Pemberitahuan Seminar Hasil dan KP Mahasiswa
-              </div>
-              <div class="collapse-content"> 
-                <p class="font-bold">Latar belakang</p>
-                <p>Perlunya informasi terkait mahasiswa sistem informasi yang semhas agar dapat meningkatkan partisipasi untuk menghadiri semhas mahasiswa tersebut.</p>
-                <p class="font-bold mt-2">Tujuan</p>
-                <p>Meningkatkan partisipasi anggota HMSI untuk menghadiri seminar hasil dan KP mahasiswa Sistem Informasi.</p>
-              </div>
-            </div>
-            <div class="collapse collapse-plus border border-base-300 bg-base-100 rounded-box my-2 max-w-4xl text-left">
-              <input type="checkbox" />
-              <div class="collapse-title text-lg font-medium">
-                Penyambutan Mahasiswa Baru Sistem Informasi 2022
-              </div>
-              <div class="collapse-content"> 
-                <p class="font-bold">Latar belakang</p>
-                <p>Perlunya sarana untuk memberikan informasi terkait jurusan sistem informasi dan juga kampus kepada mahasiswa baru SI agar dapat mengenal jurusan dan himpunan secara singkat yang ada di Sistem Informasi.</p>
-                <p class="font-bold mt-2">Tujuan</p>
-                <p>Sarana berbagi informasi bagi mahasiswa baru SI untuk mengetahui hal-hal seputar jurusan dan himpunan.</p>
-              </div>
-            </div>
-          </center>
-        </section>
-
+            </center>
+          </section>
+        </main>
         <!-- konten sampai sini -->
 
-        <footer class="footer footer-center p-10 text-neutral-content bg-[#23153c] overflow-visible">
+        <footer class="footer footer-center p-10 text-neutral-content overflow-visible">
           <div>
             <div class="grid grid-flow-col gap-4">
               <a href="https://twitter.com/HMSI_UNAND" target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a> 
