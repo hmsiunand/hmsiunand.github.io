@@ -198,7 +198,19 @@
           <form action="" method="post">
             <input type="text" placeholder="Ketik nama anda" required class="input input-bordered w-full max-w-4xl my-3" /><br>
             <textarea class="textarea textarea-bordered my-3 w-full max-w-4xl" required placeholder="Ketik pesan anda"></textarea><br>
-            <button class="btn text-neutral-content my-3 w-full max-w-xs" type="submit">Kirim</button>
+            <!-- <button class="btn text-neutral-content my-3 w-full max-w-xs" type="submit">Kirim</button> -->
+            <label for="my-modal-6" class="btn modal-button text-neutral-content my-3 w-full max-w-xs">Kirim</label>
+            <input type="checkbox" id="my-modal-6" class="modal-toggle" />
+            <div class="modal modal-bottom sm:modal-middle">
+              <div class="modal-box text-start">
+                <h3 class="font-bold text-lg">Kirim?</h3>
+                <p class="py-4">Yakin untuk mengirimkan pesan anda?</p>
+                <div class="modal-action">
+                  <label for="my-modal-6" class="btn">Batal</label>
+                  <button type="submit" class="btn">Kirim</button>
+                </div>
+              </div>
+            </div>
           </form>
         </section>
 
