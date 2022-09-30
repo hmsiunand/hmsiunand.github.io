@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="id" class="bg-[#23153c] scroll-smooth">
+<html lang="id" class="bg-[#f2f2f2] dark:bg-[#23153c] scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -44,13 +44,13 @@
             <div class="form-control w-full max-w-5xl justify-center">
                 <form action="" method="post">
                     <label class="label">
-                      <span class="text-xl font-bold text-neutral-content">Judul</span>
+                      <span class="text-xl font-bold dark:text-neutral-content">Judul</span>
                     </label>
                     <input type="text" placeholder="judul blog yang di edit" autofocus required class="input input-bordered w-full mb-4" />
                     <label class="label">
-                      <span class="text-xl font-bold text-neutral-content">Gambar (.png .jpg .jpeg)</span>
+                      <span class="text-xl font-bold dark:text-neutral-content">Gambar (.png .jpg .jpeg)</span>
                     </label>
-                    <input type="file" required class="block w-full text-sm text-neutral-content mb-4 max-w-xs
+                    <input type="file" required class="block w-full text-sm dark:text-neutral-content mb-4 max-w-xs
                         file:mr-4 file:py-2 file:px-4
                         file:rounded-full file:border-0
                         file:text-sm file:font-semibold
@@ -58,10 +58,10 @@
                         hover:file:bg-violet-100
                     "/>
                     <label class="label">
-                        <span class="text-xl font-bold text-neutral-content">Artikel</span>
+                        <span class="text-xl font-bold dark:text-neutral-content">Artikel</span>
                     </label> 
                     <textarea required></textarea>
-                    <button type="submit" class="btn btn-primary w-full sm:btn-wide mt-5 mb-8">Edit</button>
+                    <button type="submit" class="btn dark:btn-primary w-full sm:btn-wide mt-5 mb-8">Edit</button>
                 </form>
             </div>
 
@@ -69,11 +69,11 @@
         </div> 
         <div class="drawer-side mt-16">
           <label for="my-drawer-2" class="drawer-overlay"></label> 
-          <ul class="menu p-4 overflow-y-auto w-64 bg-[#23153c] lg:bg-inherit text-neutral-content">
+          <ul class="menu p-4 overflow-y-auto w-64 bg-[#23153c] lg:bg-inherit">
             <!-- Sidebar content here -->
-            <li><a href="tambah-blog.html">Tambah Blog</a></li>
-            <li><a class="bg-[#570df8]" href="kelola-blog.html">Kelola Blog</a></li>
-            <li><a href="kotakpesan.html">Kotak Pesan</a></li>
+            <li><a class="dark:text-neutral-content" href="tambah-blog.html">Tambah Blog</a></li>
+            <li><a class="bg-[#303640] dark:bg-[#570df8] text-neutral-content" href="kelola-blog.html">Kelola Blog</a></li>
+            <li><a class="dark:text-neutral-content" href="kotakpesan.html">Kotak Pesan</a></li>
           </ul>
         
         </div>
